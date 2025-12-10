@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const chatOutput = document.getElementById("chat-output");
 
 //IT IS FOR TESTING PURPOSE, DO NOT DO IT LIKE THAT!!!  
-const apiKey = "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"; // Replace with your actual OpenAI API key
+const apiKey = ""; // Replace with your actual OpenAI API key
 
     sendButton.addEventListener("click", () => sendMessage());
     userInput.addEventListener("keypress", function(event) {
@@ -63,3 +63,4 @@ const apiKey = "sk-proj-Tbsi-WNiyM-awi4okdhnp2HRnUvCs3reIu94J7ma7_HbnT8cWN_sc5dn
         chatOutput.scrollTop = chatOutput.scrollHeight;
     }
 });
+
